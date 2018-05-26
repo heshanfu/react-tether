@@ -1,0 +1,9 @@
+// @flow
+
+declare module 'react-tether' {
+  import type { Component } from 'react';
+
+  declare class TetherComponent extends Component {}
+
+  declare module.exports: TetherComponent;
+}
